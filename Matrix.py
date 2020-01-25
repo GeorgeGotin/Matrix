@@ -16,10 +16,7 @@ class matrix:
 	
 	
 	def nrow(self):
-		n = 0
-		for i in self.body:
-			n +=1
-		return n
+		return len(self.body)
 	def ncol(self):
 		return len(self.body[0])
 		
